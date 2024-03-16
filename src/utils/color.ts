@@ -1,6 +1,7 @@
-import { colors } from '@material-ui/core';
+import { colors } from '@mui/material';
 
 import { randomItem } from './array';
+
 
 const COLOR_NAMES = [
   'amber',
