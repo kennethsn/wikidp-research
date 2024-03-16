@@ -18,8 +18,10 @@ yarn.lock
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 .idea
 ignore
+notes/
 do_not_check_in
 
 npm-debug.log*

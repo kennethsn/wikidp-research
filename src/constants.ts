@@ -1,9 +1,16 @@
+export const {
+  OPENAI_API_KEY,
+  STORIES_SERVICES_API_BASE_URL,
+  STORIES_SERVICES_DISABLED,
+} = process.env;
 export const APP_NAME = 'WikiDP Research';
 export const CLASSNAME_PRODUCTION_PREFIX = 'prod';
 export const CLASSNAME_SEED = 'wikidp-r';
 export const DEFAULT_PAGE_TITLE = APP_NAME;
 export enum Images {
   collectionHeader = '/images/banner-image.jpg',
+  openAI = '/images/openai-logo.svg',
+  wikidata = '/images/wikidata-logo.svg',
   wikidp = '/favicon-512x512.png',
   yale = '/images/yale-logo.png',
 }
@@ -32,6 +39,7 @@ export const MULTILINGUAL_FILES = [
   'software__Wikipedia_Articles.csv',
 ];
 export enum RoutePaths {
+  ChatWikiDP = '/chat-wikidp',
   Home = '/',
   MultiLingualTable = '/multi-lingual-table',
 }
@@ -44,4 +52,43 @@ export const NavLinks = [
   { path: RoutePaths.Home, title: 'Home' },
   { href: WIKIDP_WIKIBASE_URL, title: 'Wikibase' },
   { path: RoutePaths.MultiLingualTable, title: 'Multi-lingual Table' },
+  { path: RoutePaths.ChatWikiDP, title: 'ChatWikiDP'}
 ];
+
+const _envBool = (envVar: string | undefined) => envVar?.toLowerCase() === 'true';
+
+export const storiesServicesAPIIsEnabled = (
+  !_envBool(STORIES_SERVICES_DISABLED) && !!STORIES_SERVICES_API_BASE_URL
+);
+
+export const WikibaseChatDomain =
+  'digital preservation of software, file formats, operating systems, emulators, etc.';
+export const WikibaseChatSampleMessages = [
+  'What can QGIS be used for?',
+  'Can I use steam on a linux laptop?',
+  'Write a paragraph about 3D Slicer',
+  'List readable file formats of PrintMaster Silver 15',
+  'Show me the bulleted release history of OpenOffice Writer',
+  'What language is wikidataintegrator in and what is the license?',
+  'What\'s the history of FLOW-MATIC',
+];
+
+export const WikidataPropId = {
+  importedFromWikimediaProject: 'P143',
+  inferredFrom: 'P3452',
+  referenceURL: 'P854',
+  statedIn: 'P248',
+} as const;
+
+export type WikidataPropIdType = typeof WikidataPropId[keyof typeof WikidataPropId]
+
+export const URLValueWikidataPropIds = new Set<WikidataPropIdType>([
+  WikidataPropId.referenceURL,
+])
+
+export const WikidataPropLabel: Record<WikidataPropIdType, string> = {
+  [WikidataPropId.importedFromWikimediaProject]: 'Stated in',
+  [WikidataPropId.inferredFrom]: 'Inferred from',
+  [WikidataPropId.referenceURL]: 'URL',
+  [WikidataPropId.statedIn]: 'Stated in'
+}

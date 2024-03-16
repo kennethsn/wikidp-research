@@ -1,0 +1,2247 @@
+{
+  "annotations": [
+      {
+          "content": "QGIS",
+          "size": 4,
+          "sources": [
+              {
+                  "description": "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)",
+                  "id": "P31",
+                  "label": "instance of",
+                  "values": [
+                      {
+                          "description": "spatial data information systems",
+                          "label": "geographic information system",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.qgis.org/"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "software program or group of programs designed for end-users",
+                          "label": "application",
+                          "references": []
+                      },
+                      {
+                          "description": "software whose source code is available under an open source license",
+                          "label": "open-source software",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.qgis.org/"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "GIS which is open source",
+                          "label": "Open Source GIS",
+                          "references": []
+                      },
+                      {
+                          "description": "computer program used to edit OpenStreetMap",
+                          "label": "OpenStreetMap editor",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P31"
+              }
+          ],
+          "start": 0,
+          "stop": 4
+      },
+      {
+          "content": " is an open-source ",
+          "size": 19,
+          "sources": [],
+          "start": 4,
+          "stop": 23
+      },
+      {
+          "content": "geographic information system",
+          "size": 29,
+          "sources": [
+              {
+                  "description": "main use of the subject (includes current and former usage)",
+                  "id": "P366",
+                  "label": "has use",
+                  "values": [
+                      {
+                          "description": "formal techniques which study entities using their topological, geometric, or geographic properties",
+                          "label": "spatial analysis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P366"
+              },
+              {
+                  "description": "organization or person that developed the item",
+                  "id": "P178",
+                  "label": "developer",
+                  "values": [
+                      {
+                          "description": "volunteer community that develops the open source application QGIS",
+                          "label": "QGIS Development Team",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P178"
+              }
+          ],
+          "start": 23,
+          "stop": 52
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 52,
+          "stop": 53
+      },
+      {
+          "content": "(GIS) application developed by",
+          "size": 30,
+          "sources": [
+              {
+                  "description": "operating system (OS) on which a software works or the OS installed on hardware",
+                  "id": "P306",
+                  "label": "operating system",
+                  "values": [
+                      {
+                          "description": "Unix-like operating system based on or descended from the Berkeley Software Distribution (BSD) series of Unix variant options",
+                          "label": "BSD",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://qgis.org/en/site/forusers/download.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P1476"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "Download QGIS for your Platform"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P407"
+                                  },
+                                  "value": {
+                                      "description": "West Germanic language",
+                                      "label": "English"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/b832d1b1341a936418f36f7e792901df"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2014-03-16T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "family of computer operating systems developed by Microsoft",
+                          "label": "Microsoft Windows",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P1476"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "Download QGIS for your Platform"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P407"
+                                  },
+                                  "value": {
+                                      "description": "West Germanic language",
+                                      "label": "English"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/b832d1b1341a936418f36f7e792901df"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2014-03-16T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://qgis.org/en/site/forusers/download.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "family of Unix-like operating systems that use the Linux kernel and are open source",
+                          "label": "Linux",
+                          "references": []
+                      },
+                      {
+                          "description": "open-source operating system for mobile devices created by Google",
+                          "label": "Android",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://hub.qgis.org/projects/android-qgis"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2014-02-16T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/519fe7c2873d48dc1bdd8aac8eca42be"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "operating system for Apple computers",
+                          "label": "macOS",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2014-03-16T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://qgis.org/en/site/forusers/download.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/b832d1b1341a936418f36f7e792901df"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P407"
+                                  },
+                                  "value": {
+                                      "description": "West Germanic language",
+                                      "label": "English"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P1476"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "Download QGIS for your Platform"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "mobile operating system by Apple Inc.",
+                          "label": "iOS",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P306"
+              },
+              {
+                  "description": "platform for which a work was developed or released, or the specific platform version of a software product",
+                  "id": "P400",
+                  "label": "platform",
+                  "values": [
+                      {
+                          "description": "64-bit version of the x86 instruction set",
+                          "label": "x86-64",
+                          "references": []
+                      },
+                      {
+                          "description": "type of instruction set architecture",
+                          "label": "x86",
+                          "references": []
+                      },
+                      {
+                          "description": "family of RISC-based computer architectures",
+                          "label": "ARM architecture",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P400"
+              }
+          ],
+          "start": 53,
+          "stop": 83
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 83,
+          "stop": 84
+      },
+      {
+          "content": "the QGIS Development Team. It",
+          "size": 29,
+          "sources": [
+              {
+                  "description": "framework or toolkit a program uses to display the graphical user interface",
+                  "id": "P1414",
+                  "label": "GUI toolkit or framework",
+                  "values": [
+                      {
+                          "description": "object-oriented framework for GUI creation",
+                          "label": "Qt",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1414"
+              },
+              {
+                  "description": "file format a program can create and/or write to",
+                  "id": "P1073",
+                  "label": "writable file format",
+                  "values": [
+                      {
+                          "description": "family of lossless compression bitmap image file formats",
+                          "label": "Portable Network Graphics",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "notation for expressing geographic annotation and visualization within Internet-based maps",
+                          "label": "Keyhole Markup Language",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "package of file formats which together define geographic features",
+                          "label": "shapefile",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "JSON subset for geospatial data",
+                          "label": "GeoJSON",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "open file format for geographic data",
+                          "label": "GeoPackage",
+                          "references": []
+                      },
+                      {
+                          "description": "file format",
+                          "label": "GeoTIFF",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format used by QGIS for GIS-projects",
+                          "label": "qgs",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format that stores the style of a lyer in QGIS (qml)",
+                          "label": "QGIS layer style",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format",
+                          "label": "QGIS Layer",
+                          "references": []
+                      },
+                      {
+                          "description": "file format",
+                          "label": "QGIS Composer Template",
+                          "references": []
+                      },
+                      {
+                          "description": "file format",
+                          "label": "QGIS Zipped project",
+                          "references": []
+                      },
+                      {
+                          "description": "open standard for two-dimensional vector graphics",
+                          "label": "SVG",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1073"
+              },
+              {
+                  "description": "file format a program can open and read",
+                  "id": "P1072",
+                  "label": "readable file format",
+                  "values": [
+                      {
+                          "description": "notation for expressing geographic annotation and visualization within Internet-based maps",
+                          "label": "Keyhole Markup Language",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "family of lossless compression bitmap image file formats",
+                          "label": "Portable Network Graphics",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "package of file formats which together define geographic features",
+                          "label": "shapefile",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "data stored in two-dimensional arrays by separating the values in each row with specific delimiter characters; commonly accepted in databases and spreadsheets",
+                          "label": "delimiter-separated value format",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format",
+                          "label": "GeoTIFF",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format used by QGIS for GIS-projects",
+                          "label": "qgs",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format",
+                          "label": "MapInfo Interchange Format",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "file format that stores the style of a lyer in QGIS (qml)",
+                          "label": "QGIS layer style",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "open file format for geographic data",
+                          "label": "GeoPackage",
+                          "references": []
+                      },
+                      {
+                          "description": "file format",
+                          "label": "QGIS Layer",
+                          "references": []
+                      },
+                      {
+                          "description": "file format",
+                          "label": "QGIS Composer Template",
+                          "references": []
+                      },
+                      {
+                          "description": "open standard for two-dimensional vector graphics",
+                          "label": "SVG",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/2.2/en/docs/user_manual/working_with_vector/supported_data.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/ae95e8edfc7a327e847e26e7f1c03cd9"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-08-09T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1072"
+              }
+          ],
+          "start": 84,
+          "stop": 113
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 113,
+          "stop": 114
+      },
+      {
+          "content": "operates on various operating",
+          "size": 29,
+          "sources": [
+              {
+                  "description": "subject software depends on object software",
+                  "id": "P1547",
+                  "label": "depends on software",
+                  "values": [
+                      {
+                          "description": "map projection software",
+                          "label": "PROJ",
+                          "references": []
+                      },
+                      {
+                          "description": "software library for raster and vector geospatial data formats",
+                          "label": "GDAL",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/b0912aa894084766793cd431f69be04a"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://docs.qgis.org/3.4/en/docs/user_manual/processing_algs/gdal/index.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2019-04-24T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "C++ port of Java Topology Suite",
+                          "label": "GEOS",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1547"
+              },
+              {
+                  "description": "license under which this copyrighted work is released",
+                  "id": "P275",
+                  "label": "copyright license",
+                  "values": [
+                      {
+                          "description": "previous or (at your option) any later version of the GNU GPL (version 2) with library exception, free software license with copyleft",
+                          "label": "GNU General Public License, version 2.0 or later with library exception",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://github.com/qgis/QGIS/blob/master/COPYING"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P275"
+              }
+          ],
+          "start": 114,
+          "stop": 143
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 143,
+          "stop": 144
+      },
+      {
+          "content": "systems including BSD, Microsoft Windows, Linux, Android, macOS, and iOS.",
+          "size": 73,
+          "sources": [
+              {
+                  "description": "quality assurance process in place for a particular software",
+                  "id": "P2992",
+                  "label": "software quality assurance",
+                  "values": [
+                      {
+                          "description": "software development practice based on frequent submission of granular changes",
+                          "label": "continuous integration",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/801966f49847b708154c18279deab3b0"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2016-10-05T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2992"
+              },
+              {
+                  "description": "audio file with pronunciation",
+                  "id": "P443",
+                  "label": "pronunciation audio",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7737%20%28rus%29-Svetlov%20Artem-QGIS.wav",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P443"
+              },
+              {
+                  "description": "URL of the official page of an item (current or former). Usage: If a listed URL no longer points to the official website, do not remove it, but see the \"Hijacked or dead websites\" section of the Talk page",
+                  "id": "P856",
+                  "label": "official website",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "http://mrcc.com/qgis",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "http://qgis.sourceforge.net/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/uk/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/fa/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/nl/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/pt_BR/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/ja/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/id/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/de/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/it/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/pl/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/ru/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/en/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/fr/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/fi/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/tr/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/pt_PT/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/ro/site/",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://qgis.org/es/site/",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P856"
+              },
+              {
+                  "description": "image of relevant illustration of the subject; if available, also use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)",
+                  "id": "P18",
+                  "label": "image",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "http://commons.wikimedia.org/wiki/Special:FilePath/QGIS%202.2%20Valmiera%20showing%20new%20menu%20design.png",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P143"
+                                  },
+                                  "value": {
+                                      "description": "Russian-language edition of Wikipedia",
+                                      "label": "Russian Wikipedia"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P18"
+              },
+              {
+                  "description": "graphic mark or emblem commonly used by commercial enterprises, organizations and products",
+                  "id": "P154",
+                  "label": "logo image",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "http://commons.wikimedia.org/wiki/Special:FilePath/QGis%20Logo.png",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "http://commons.wikimedia.org/wiki/Special:FilePath/QGIS%20logo%20new.svg",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P154"
+              }
+          ],
+          "start": 144,
+          "stop": 217
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 217,
+          "stop": 218
+      },
+      {
+          "content": "QGIS supports a",
+          "size": 15,
+          "sources": [
+              {
+                  "description": "official IRC channel of an institution or project",
+                  "id": "P1613",
+                  "label": "IRC channel URL",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "irc://irc.freenode.net/qgis",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "irc://irc.openprojects.net/qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1613"
+              }
+          ],
+          "start": 218,
+          "stop": 233
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 233,
+          "stop": 234
+      },
+      {
+          "content": "wide range of",
+          "size": 13,
+          "sources": [
+              {
+                  "description": "URL to the blog of this person or organization",
+                  "id": "P1581",
+                  "label": "official blog URL",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "https://blog.qgis.org/",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1581"
+              }
+          ],
+          "start": 234,
+          "stop": 247
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 247,
+          "stop": 248
+      },
+      {
+          "content": "platforms such",
+          "size": 14,
+          "sources": [
+              {
+                  "description": "time when an entity begins to exist; for date of official opening use P1619",
+                  "id": "P571",
+                  "label": "inception",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "2002-07-06T00:00:00.000",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P571"
+              }
+          ],
+          "start": 248,
+          "stop": 262
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 262,
+          "stop": 263
+      },
+      {
+          "content": "as x86-64, x86,",
+          "size": 15,
+          "sources": [
+              {
+                  "description": "organization or individual that sponsors this item",
+                  "id": "P859",
+                  "label": "sponsor",
+                  "values": [
+                      {
+                          "description": "platform for map making and company",
+                          "label": "Felt Maps",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://felt.com/blog/felt-flagship-member-of-qgis"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P859"
+              }
+          ],
+          "start": 263,
+          "stop": 278
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 278,
+          "stop": 279
+      },
+      {
+          "content": "and ARM architecture. The application uses the Qt GUI toolkit for its graphical user interface. It can read and write a",
+          "size": 119,
+          "sources": [
+              {
+                  "description": "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category:\")",
+                  "id": "P373",
+                  "label": "Commons category",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "QGIS",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P373"
+              },
+              {
+                  "description": "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)",
+                  "id": "P646",
+                  "label": "Freebase ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "/m/0ct9z5",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P577"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/f987783e1f9c9fa0cb0b774d330af52d"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P248"
+                                  },
+                                  "value": {
+                                      "description": "dumps of the public part of Google's Knowledge Graph",
+                                      "label": "Freebase Data Dumps"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P577"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2013-10-28T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P646"
+              },
+              {
+                  "description": "identifier for an official (preferably) Facebook person, product or organization page (everything that follows URL part 'https://www.facebook.com/')",
+                  "id": "P2013",
+                  "label": "Facebook username",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "298112000235096",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2013"
+              },
+              {
+                  "description": "public source code repository",
+                  "id": "P1324",
+                  "label": "source code repository URL",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "cvs://anonymous@cvs.qgis.sourceforge.net:/cvsroot/qgis",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://github.com/qgis/QGIS",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/801966f49847b708154c18279deab3b0"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2016-10-05T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1324"
+              },
+              {
+                  "description": "link to the FSD page on a given software or license",
+                  "id": "P2537",
+                  "label": "Free Software Directory entry",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "QGIS",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/801966f49847b708154c18279deab3b0"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2016-10-05T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2537"
+              },
+              {
+                  "description": "Google Plus, account identifier of this person or organization: either starting with a \"+\" or consisting of 21 digits",
+                  "id": "P2847",
+                  "label": "Google+ ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "109126324126544815949",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2847"
+              },
+              {
+                  "description": "tag on the Stack Exchange websites",
+                  "id": "P1482",
+                  "label": "Stack Exchange tag",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "https://gis.stackexchange.com/tags/qgis",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "https://stackoverflow.com/tags/qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1482"
+              },
+              {
+                  "description": "username of this project, person or organization on GitHub",
+                  "id": "P2037",
+                  "label": "GitHub username",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2037"
+              }
+          ],
+          "start": 279,
+          "stop": 398
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 398,
+          "stop": 399
+      },
+      {
+          "content": "variety of file",
+          "size": 15,
+          "sources": [
+              {
+                  "description": "identifier for an official SourceForge repository (\"project\") for a software product",
+                  "id": "P2209",
+                  "label": "SourceForge project",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2209"
+              }
+          ],
+          "start": 399,
+          "stop": 414
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 414,
+          "stop": 415
+      },
+      {
+          "content": "formats, including Portable",
+          "size": 27,
+          "sources": [
+              {
+                  "description": "GitHub topic for a repository or subject",
+                  "id": "P9100",
+                  "label": "GitHub topic",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P9100"
+              },
+              {
+                  "description": "short sequence of bytes to identify a longer cryptographic public key",
+                  "id": "P3721",
+                  "label": "public key fingerprint",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "942D 6AD5 DF3E 75DE A9AF  72B2 073D 307A 618E 5811",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://www.qgis.org/en/site/forusers/alldownloads.html"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2017-03-09T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/bd6244b06e619b0e0f7472b0f3da4ea1"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P1476"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "QGIS Installers"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3721"
+              }
+          ],
+          "start": 415,
+          "stop": 442
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 442,
+          "stop": 443
+      },
+      {
+          "content": "Network Graphics, Keyhole Markup Language, shapefiles, GeoJSON, GeoPackage,",
+          "size": 75,
+          "sources": [
+              {
+                  "description": "address on the Mastodon decentralized social network. The form is: 'user@server.domain' . There is no leading '@' as is usually written to distinguish Mastodon addresses from email addresses.",
+                  "id": "P4033",
+                  "label": "Mastodon address",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis@fosstodon.org",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P4033"
+              },
+              {
+                  "description": "package name in the Chocolatey Community Repository",
+                  "id": "P10766",
+                  "label": "Chocolatey Community package ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "QGIS",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P10766"
+              },
+              {
+                  "description": "this item's username on X (formerly Twitter); do not include the “@” symbol",
+                  "id": "P2002",
+                  "label": "X username",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/d6393f334ebb1e3e38651406f16c1a39"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2018-05-10T00:00:00Z"
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2002"
+              },
+              {
+                  "description": "name of the official Gentoo package of this application",
+                  "id": "P3499",
+                  "label": "Gentoo package",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "sci-geosciences/qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3499"
+              },
+              {
+                  "description": "identifier for free software at OpenHub.net",
+                  "id": "P1972",
+                  "label": "Open Hub ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P1972"
+              }
+          ],
+          "start": 443,
+          "stop": 518
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 518,
+          "stop": 519
+      },
+      {
+          "content": "GeoTIFF, qgs,",
+          "size": 13,
+          "sources": [
+              {
+                  "description": "name of the official Arch Linux package",
+                  "id": "P3454",
+                  "label": "Arch Linux package",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3454"
+              }
+          ],
+          "start": 519,
+          "stop": 532
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 532,
+          "stop": 533
+      },
+      {
+          "content": "QGIS layer style, QGIS Layer,",
+          "size": 29,
+          "sources": [
+              {
+                  "description": "name of the official Fedora package",
+                  "id": "P3463",
+                  "label": "Fedora package",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3463"
+              },
+              {
+                  "description": "unique identifier in the Framalibre free software directory",
+                  "id": "P4107",
+                  "label": "Framalibre ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P4107"
+              }
+          ],
+          "start": 533,
+          "stop": 562
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 562,
+          "stop": 563
+      },
+      {
+          "content": "QGIS Composer Template, QGIS Zipped project,",
+          "size": 44,
+          "sources": [
+              {
+                  "description": "identifier for a topic on Quora (English language version)",
+                  "id": "P3417",
+                  "label": "Quora topic ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "QGIS-1",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P248"
+                                  },
+                                  "value": {
+                                      "description": "American question-and-answer website",
+                                      "label": "Quora"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": null,
+                          "label": "QGIS-Quantum-GIS-Open-Source",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3417"
+              },
+              {
+                  "description": "ID of an application on Flathub, the Flatpak repository",
+                  "id": "P4655",
+                  "label": "Flathub ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "org.qgis.qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P4655"
+              },
+              {
+                  "description": "the programming language(s) in which the software is developed",
+                  "id": "P277",
+                  "label": "programmed in",
+                  "values": [
+                      {
+                          "description": "general-purpose programming language",
+                          "label": "C++",
+                          "references": [
+                              {
+                                  "property": {
+                                      "id": "P1476"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "The qgis Open Source Project on Open Hub: Languages Page"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P248"
+                                  },
+                                  "value": {
+                                      "description": "public directory of free and open source software (FOSS)",
+                                      "label": "Open Hub"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "2018-07-14T00:00:00Z"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "value/P813"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "http://www.wikidata.org/value/6115abc84a79d8d7a184ea766efbf251"
+                                  }
+                              },
+                              {
+                                  "property": {
+                                      "id": "P854"
+                                  },
+                                  "value": {
+                                      "description": null,
+                                      "label": "https://www.openhub.net/p/qgis/analyses/latest/languages_summary"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "description": "general-purpose programming language",
+                          "label": "Python",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P277"
+              }
+          ],
+          "start": 563,
+          "stop": 607
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 607,
+          "stop": 608
+      },
+      {
+          "content": "and SVG. QGIS depends on software libraries such as PROJ, GDAL, and GEOS. It",
+          "size": 76,
+          "sources": [
+              {
+                  "description": "identifier for software package in the SlackBuilds database",
+                  "id": "P12077",
+                  "label": "SlackBuilds package",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "gis/qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P12077"
+              },
+              {
+                  "description": "link to the user manual of the object (product, program)",
+                  "id": "P2078",
+                  "label": "user manual URL",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "https://www.qgis.org/en/docs/index.html",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P2078"
+              },
+              {
+                  "description": "serial code used to uniquely identify digital objects like academic papers (use upper case letters only)",
+                  "id": "P356",
+                  "label": "DOI",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "10.5281/ZENODO.5869837",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P356"
+              },
+              {
+                  "description": "number of subscribers on a particular social media website (use as main statement only; see P3744 instead for qualifier). Qualify with \"point in time\" and property for account. For Twitter, use numeric id.",
+                  "id": "P8687",
+                  "label": "social media followers",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "3168",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "42886",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "47645",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "55708",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "63409",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P8687"
+              },
+              {
+                  "description": "identifier for a libre software in the Socle interministériel de logiciels libres website",
+                  "id": "P8209",
+                  "label": "SILL software ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "120",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P8209"
+              }
+          ],
+          "start": 608,
+          "stop": 684
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 684,
+          "stop": 685
+      },
+      {
+          "content": "is licensed under the GNU General Public License, version",
+          "size": 57,
+          "sources": [
+              {
+                  "description": "identifier for an app in the Pro-Linux.de database",
+                  "id": "P6665",
+                  "label": "Pro-Linux.de DBApp ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "7000",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P6665"
+              },
+              {
+                  "description": "name of the Reddit forum associated to this subject",
+                  "id": "P3984",
+                  "label": "subreddit",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3984"
+              },
+              {
+                  "description": "package name and identifier in Repology",
+                  "id": "P6931",
+                  "label": "Repology project name",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P6931"
+              },
+              {
+                  "description": "name of the official FreeBSD port of this application",
+                  "id": "P7427",
+                  "label": "FreeBSD port",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "graphics/qgis",
+                          "references": []
+                      },
+                      {
+                          "description": null,
+                          "label": "graphics/qgis-ltr",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P7427"
+              }
+          ],
+          "start": 685,
+          "stop": 742
+      },
+      {
+          "content": " ",
+          "size": 1,
+          "sources": [],
+          "start": 742,
+          "stop": 743
+      },
+      {
+          "content": "2.0 or later with library exception. QGIS employs",
+          "size": 49,
+          "sources": [
+              {
+                  "description": "name of the package available in the NetBSD Packages Collection",
+                  "id": "P7966",
+                  "label": "NetBSD package ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "geography/qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P7966"
+              },
+              {
+                  "description": "identifier used in the crowdsourced software recommendation website AlternativeTo.net",
+                  "id": "P9618",
+                  "label": "AlternativeTo software ID",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "quantum-gis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P9618"
+              },
+              {
+                  "description": "name of the official Debian stable package",
+                  "id": "P3442",
+                  "label": "Debian stable package",
+                  "values": [
+                      {
+                          "description": null,
+                          "label": "qgis",
+                          "references": []
+                      }
+                  ],
+                  "wikibase_url": "https://www.wikidata.org/wiki/Q1329181#P3442"
+              }
+          ],
+          "start": 743,
+          "stop": 792
+      },
+      {
+          "content": " continuous integration for software quality assurance, with its code hosted on GitHub. The official website for QGIS is https://qgis.org, and it has a comprehensive documentation available at https://www.qgis.org/en/docs/index.html. The application has been in development since July 6, 2002, and is sponsored by organizations like Felt Maps. QGIS is represented on various social media platforms, including Mastodon and X (formerly Twitter), and has a presence on software repositories such as the FreeBSD Ports Collection, the Arch User Repository (AUR), and the Debian, Fedora, Gentoo, and Ubuntu package archives.",
+          "size": 618,
+          "sources": [],
+          "start": 792,
+          "stop": 1410
+      }
+  ],
+  "entity": {
+      "aliases": [
+          "Quantum GIS"
+      ],
+      "description": "open source desktop geographic information system software",
+      "id": "Q1329181",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/QGIS%202.2%20Valmiera%20showing%20new%20menu%20design.png",
+      "label": "QGIS",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/QGIS%20logo%20new.svg",
+      "wikibase_url": "https://www.wikidata.org/wiki/Q1329181"
+  },
+  "message": "QGIS is an open-source geographic information system (GIS) application developed by the QGIS Development Team. It operates on various operating systems including BSD, Microsoft Windows, Linux, Android, macOS, and iOS. QGIS supports a wide range of platforms such as x86-64, x86, and ARM architecture. The application uses the Qt GUI toolkit for its graphical user interface. It can read and write a variety of file formats, including Portable Network Graphics, Keyhole Markup Language, shapefiles, GeoJSON, GeoPackage, GeoTIFF, qgs, QGIS layer style, QGIS Layer, QGIS Composer Template, QGIS Zipped project, and SVG. QGIS depends on software libraries such as PROJ, GDAL, and GEOS. It is licensed under the GNU General Public License, version 2.0 or later with library exception. QGIS employs continuous integration for software quality assurance, with its code hosted on GitHub. The official website for QGIS is https://qgis.org, and it has a comprehensive documentation available at https://www.qgis.org/en/docs/index.html. The application has been in development since July 6, 2002, and is sponsored by organizations like Felt Maps. QGIS is represented on various social media platforms, including Mastodon and X (formerly Twitter), and has a presence on software repositories such as the FreeBSD Ports Collection, the Arch User Repository (AUR), and the Debian, Fedora, Gentoo, and Ubuntu package archives."
+}
