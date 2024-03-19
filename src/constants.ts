@@ -1,8 +1,9 @@
-export const {
-  OPENAI_API_KEY,
-  STORIES_SERVICES_API_BASE_URL,
-  STORIES_SERVICES_DISABLED,
-} = process.env;
+const _envBool = (envVar: string | undefined) => envVar?.toLowerCase() === 'true';
+
+export const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+export const STORIES_SERVICES_API_BASE_URL = process.env.STORIES_SERVICES_API_BASE_URL;
+export const STORIES_SERVICES_DISABLED = _envBool(process.env.STORIES_SERVICES_DISABLED);
+
 export const APP_NAME = 'WikiDP Research';
 export const CLASSNAME_PRODUCTION_PREFIX = 'prod';
 export const CLASSNAME_SEED = 'wikidp-r';
@@ -55,10 +56,8 @@ export const NavLinks = [
   { path: RoutePaths.ChatWikiDP, title: 'ChatWikiDP'}
 ];
 
-const _envBool = (envVar: string | undefined) => envVar?.toLowerCase() === 'true';
-
 export const storiesServicesAPIIsEnabled = (
-  !_envBool(STORIES_SERVICES_DISABLED) && !!STORIES_SERVICES_API_BASE_URL
+  !STORIES_SERVICES_DISABLED && !!STORIES_SERVICES_API_BASE_URL
 );
 
 export const WikibaseChatDomain =
