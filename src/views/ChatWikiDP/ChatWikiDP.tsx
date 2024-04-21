@@ -70,18 +70,18 @@ export default function ChatWikiDP() {
       const { annotations, entity, message: aiMessage } = await aiWikibaseChat({
         api_key: apiKey,
         domain: WikibaseChatDomain,
+        entity_id: wikibaseId || undefined,
         history: buildAPIChatHistory(chatHistory),
         message,
         property_instructions: propertyInstructions.length ? propertyInstructions : undefined,
-        wikibase_id: wikibaseId || undefined,
-      })
+      });
 
       loadEntity(entity);
       setChatHistory([
         ...chatHistory,
         { agent: 'human', message },
         { agent: 'ai', annotations, message: aiMessage },
-      ])
+      ]);
       clearMessage();
     } catch(e) {
       alert('There was an issue processing this passage.');

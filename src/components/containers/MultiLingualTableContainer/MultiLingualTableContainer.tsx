@@ -23,14 +23,14 @@ const MultiLingualTableContainer = () => {
   const [initialized, setInitialized] = useState(false);
   const [multiLingualData, setMultiLingualData] = useState(undefined as MultiLingualItemData | undefined);
   const [table, setTable] = useState(undefined as MultiLingualTable | undefined);
-  const [selectedFoodItemIndex, setSelectedFoodItemIndex] = useState(0);
+  const [selectedItemIndex, setSelectedItemIndex] = useState(0);
   const [selectedSourceIndex, setSelectedSourceIndex] = useState(0);
   const [translationMap, setTranslationMap] = useState(
     {} as Record<string, MultiLingualTableCSVEntryRow>,
   );
   const selectItemAndSource = useCallback(
     (itemIndex: number, sourceIndex: number, data?: MultiLingualItemData) => {
-      setSelectedFoodItemIndex(itemIndex);
+      setSelectedItemIndex(itemIndex);
       setSelectedSourceIndex(sourceIndex);
       const _table = (multiLingualData || data)![itemIndex]?.tables[sourceIndex] || {};
       const _translations: Record<string, MultiLingualTableCSVEntryRow> = {};
@@ -72,7 +72,7 @@ const MultiLingualTableContainer = () => {
             <Select
               label="Food Item"
               onChange={({ target: { value }}) => selectItemAndSource(value as number, 0)}
-              value={selectedFoodItemIndex}
+              value={selectedItemIndex}
               variant="standard"
             >
               {multiLingualData.map(({ primaryLabel }, index) => (
@@ -96,12 +96,12 @@ const MultiLingualTableContainer = () => {
             <Select
               label="Data Source"
               onChange={({ target: { value }}) => (
-                selectItemAndSource(selectedFoodItemIndex, value as number)
+                selectItemAndSource(selectedItemIndex, value as number)
               )}
               value={selectedSourceIndex}
               variant="standard"
             >
-              {multiLingualData[selectedFoodItemIndex]?.tables.map(({ source }, index) => (
+              {multiLingualData[selectedItemIndex]?.tables.map(({ source }, index) => (
                 <MenuItem
                   key={`${index}-${source}`}
                   value={index}
@@ -122,7 +122,7 @@ const MultiLingualTableContainer = () => {
         {languageData.map(({ code, name }) => (
           <TableCell
             color={buildColor(code)}
-            key={`${selectedFoodItemIndex}-${selectedSourceIndex}-${code}-${name}`}
+            key={`${selectedItemIndex}-${selectedSourceIndex}-${code}-${name}`}
             label={code}
             tooltip={buildTooltip(code, name)}
           />

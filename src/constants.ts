@@ -5,8 +5,6 @@ export const STORIES_SERVICES_API_BASE_URL = process.env.STORIES_SERVICES_API_BA
 export const STORIES_SERVICES_DISABLED = _envBool(process.env.STORIES_SERVICES_DISABLED);
 
 export const APP_NAME = 'WikiDP Research';
-export const CLASSNAME_PRODUCTION_PREFIX = 'prod';
-export const CLASSNAME_SEED = 'wikidp-r';
 export const DEFAULT_PAGE_TITLE = APP_NAME;
 export enum Images {
   collectionHeader = '/images/banner-image.jpg',
@@ -53,7 +51,7 @@ export const NavLinks = [
   { path: RoutePaths.Home, title: 'Home' },
   { href: WIKIDP_WIKIBASE_URL, title: 'Wikibase' },
   { path: RoutePaths.MultiLingualTable, title: 'Multi-lingual Table' },
-  { path: RoutePaths.ChatWikiDP, title: 'ChatWikiDP'}
+  { path: RoutePaths.ChatWikiDP, title: 'ChatWikiDP'},
 ];
 
 export const storiesServicesAPIIsEnabled = (
@@ -79,15 +77,15 @@ export const WikidataPropId = {
   statedIn: 'P248',
 } as const;
 
-export type WikidataPropIdType = typeof WikidataPropId[keyof typeof WikidataPropId]
+export type WikidataPropIdType = typeof WikidataPropId[keyof typeof WikidataPropId];
 
 export const URLValueWikidataPropIds = new Set<WikidataPropIdType>([
   WikidataPropId.referenceURL,
-])
+]);
 
 export const WikidataPropLabel: Record<WikidataPropIdType, string> = {
   [WikidataPropId.importedFromWikimediaProject]: 'Stated in',
   [WikidataPropId.inferredFrom]: 'Inferred from',
   [WikidataPropId.referenceURL]: 'URL',
-  [WikidataPropId.statedIn]: 'Stated in'
-}
+  [WikidataPropId.statedIn]: 'Stated in',
+};
