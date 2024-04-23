@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { FooterLinks } from '../../../constants';
 import styles from './styles';
 
+
 const Footer = () => {
   const copyDate = `© ${new Date().getFullYear()}`;
   return (

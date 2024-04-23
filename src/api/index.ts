@@ -7,7 +7,7 @@ import { storiesAPIClient } from './client';
 
 export const aiWikibaseChat = async (request: ChatWikiDPRequest): Promise<ChatWikiDPResponse> => {
   if (storiesServicesAPIIsEnabled) {
-    return storiesAPIClient.post('ai/wikibase_chat/', request);
+    return storiesAPIClient.post('ai/wikibase_entity_chat/', request);
   }
   // Mocked Response
   await sleep(3000);

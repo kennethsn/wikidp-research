@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 
 import styles from './styles';
 
+
 interface Props {
   label: string;
 }

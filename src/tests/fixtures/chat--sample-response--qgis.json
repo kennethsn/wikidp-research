@@ -6,8 +6,8 @@
           "sources": [
               {
                   "description": "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)",
-                  "id": "P31",
-                  "label": "instance of",
+                  "property_id": "P31",
+                  "property_label": "instance of",
                   "values": [
                       {
                           "description": "spatial data information systems",
@@ -74,8 +74,8 @@
           "sources": [
               {
                   "description": "main use of the subject (includes current and former usage)",
-                  "id": "P366",
-                  "label": "has use",
+                  "property_id": "P366",
+                  "property_label": "has use",
                   "values": [
                       {
                           "description": "formal techniques which study entities using their topological, geometric, or geographic properties",
@@ -87,8 +87,8 @@
               },
               {
                   "description": "organization or person that developed the item",
-                  "id": "P178",
-                  "label": "developer",
+                  "property_id": "P178",
+                  "property_label": "developer",
                   "values": [
                       {
                           "description": "volunteer community that develops the open source application QGIS",
@@ -115,8 +115,8 @@
           "sources": [
               {
                   "description": "operating system (OS) on which a software works or the OS installed on hardware",
-                  "id": "P306",
-                  "label": "operating system",
+                  "property_id": "P306",
+                  "property_label": "operating system",
                   "values": [
                       {
                           "description": "Unix-like operating system based on or descended from the Berkeley Software Distribution (BSD) series of Unix variant options",
@@ -319,8 +319,8 @@
               },
               {
                   "description": "platform for which a work was developed or released, or the specific platform version of a software product",
-                  "id": "P400",
-                  "label": "platform",
+                  "property_id": "P400",
+                  "property_label": "platform",
                   "values": [
                       {
                           "description": "64-bit version of the x86 instruction set",
@@ -357,8 +357,8 @@
           "sources": [
               {
                   "description": "framework or toolkit a program uses to display the graphical user interface",
-                  "id": "P1414",
-                  "label": "GUI toolkit or framework",
+                  "property_id": "P1414",
+                  "property_label": "GUI toolkit or framework",
                   "values": [
                       {
                           "description": "object-oriented framework for GUI creation",
@@ -370,8 +370,8 @@
               },
               {
                   "description": "file format a program can create and/or write to",
-                  "id": "P1073",
-                  "label": "writable file format",
+                  "property_id": "P1073",
+                  "property_label": "writable file format",
                   "values": [
                       {
                           "description": "family of lossless compression bitmap image file formats",
@@ -662,8 +662,8 @@
               },
               {
                   "description": "file format a program can open and read",
-                  "id": "P1072",
-                  "label": "readable file format",
+                  "property_id": "P1072",
+                  "property_label": "readable file format",
                   "values": [
                       {
                           "description": "notation for expressing geographic annotation and visualization within Internet-based maps",
@@ -997,8 +997,8 @@
           "sources": [
               {
                   "description": "subject software depends on object software",
-                  "id": "P1547",
-                  "label": "depends on software",
+                  "property_id": "P1547",
+                  "property_label": "depends on software",
                   "values": [
                       {
                           "description": "map projection software",
@@ -1048,8 +1048,8 @@
               },
               {
                   "description": "license under which this copyrighted work is released",
-                  "id": "P275",
-                  "label": "copyright license",
+                  "property_id": "P275",
+                  "property_label": "copyright license",
                   "values": [
                       {
                           "description": "previous or (at your option) any later version of the GNU GPL (version 2) with library exception, free software license with copyleft",
@@ -1086,8 +1086,8 @@
           "sources": [
               {
                   "description": "quality assurance process in place for a particular software",
-                  "id": "P2992",
-                  "label": "software quality assurance",
+                  "property_id": "P2992",
+                  "property_label": "software quality assurance",
                   "values": [
                       {
                           "description": "software development practice based on frequent submission of granular changes",
@@ -1118,8 +1118,8 @@
               },
               {
                   "description": "audio file with pronunciation",
-                  "id": "P443",
-                  "label": "pronunciation audio",
+                  "property_id": "P443",
+                  "property_label": "pronunciation audio",
                   "values": [
                       {
                           "description": null,
@@ -1131,8 +1131,8 @@
               },
               {
                   "description": "URL of the official page of an item (current or former). Usage: If a listed URL no longer points to the official website, do not remove it, but see the \"Hijacked or dead websites\" section of the Talk page",
-                  "id": "P856",
-                  "label": "official website",
+                  "property_id": "P856",
+                  "property_label": "official website",
                   "values": [
                       {
                           "description": null,
@@ -1239,8 +1239,8 @@
               },
               {
                   "description": "image of relevant illustration of the subject; if available, also use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)",
-                  "id": "P18",
-                  "label": "image",
+                  "property_id": "P18",
+                  "property_label": "image",
                   "values": [
                       {
                           "description": null,
@@ -1262,8 +1262,8 @@
               },
               {
                   "description": "graphic mark or emblem commonly used by commercial enterprises, organizations and products",
-                  "id": "P154",
-                  "label": "logo image",
+                  "property_id": "P154",
+                  "property_label": "logo image",
                   "values": [
                       {
                           "description": null,
@@ -1295,8 +1295,8 @@
           "sources": [
               {
                   "description": "official IRC channel of an institution or project",
-                  "id": "P1613",
-                  "label": "IRC channel URL",
+                  "property_id": "P1613",
+                  "property_label": "IRC channel URL",
                   "values": [
                       {
                           "description": null,
@@ -1328,8 +1328,8 @@
           "sources": [
               {
                   "description": "URL to the blog of this person or organization",
-                  "id": "P1581",
-                  "label": "official blog URL",
+                  "property_id": "P1581",
+                  "property_label": "official blog URL",
                   "values": [
                       {
                           "description": null,
@@ -1356,8 +1356,8 @@
           "sources": [
               {
                   "description": "time when an entity begins to exist; for date of official opening use P1619",
-                  "id": "P571",
-                  "label": "inception",
+                  "property_id": "P571",
+                  "property_label": "inception",
                   "values": [
                       {
                           "description": null,
@@ -1384,8 +1384,8 @@
           "sources": [
               {
                   "description": "organization or individual that sponsors this item",
-                  "id": "P859",
-                  "label": "sponsor",
+                  "property_id": "P859",
+                  "property_label": "sponsor",
                   "values": [
                       {
                           "description": "platform for map making and company",
@@ -1422,8 +1422,8 @@
           "sources": [
               {
                   "description": "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category:\")",
-                  "id": "P373",
-                  "label": "Commons category",
+                  "property_id": "P373",
+                  "property_label": "Commons category",
                   "values": [
                       {
                           "description": null,
@@ -1435,8 +1435,8 @@
               },
               {
                   "description": "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)",
-                  "id": "P646",
-                  "label": "Freebase ID",
+                  "property_id": "P646",
+                  "property_label": "Freebase ID",
                   "values": [
                       {
                           "description": null,
@@ -1476,8 +1476,8 @@
               },
               {
                   "description": "identifier for an official (preferably) Facebook person, product or organization page (everything that follows URL part 'https://www.facebook.com/')",
-                  "id": "P2013",
-                  "label": "Facebook username",
+                  "property_id": "P2013",
+                  "property_label": "Facebook username",
                   "values": [
                       {
                           "description": null,
@@ -1489,8 +1489,8 @@
               },
               {
                   "description": "public source code repository",
-                  "id": "P1324",
-                  "label": "source code repository URL",
+                  "property_id": "P1324",
+                  "property_label": "source code repository URL",
                   "values": [
                       {
                           "description": null,
@@ -1526,8 +1526,8 @@
               },
               {
                   "description": "link to the FSD page on a given software or license",
-                  "id": "P2537",
-                  "label": "Free Software Directory entry",
+                  "property_id": "P2537",
+                  "property_label": "Free Software Directory entry",
                   "values": [
                       {
                           "description": null,
@@ -1558,8 +1558,8 @@
               },
               {
                   "description": "Google Plus, account identifier of this person or organization: either starting with a \"+\" or consisting of 21 digits",
-                  "id": "P2847",
-                  "label": "Google+ ID",
+                  "property_id": "P2847",
+                  "property_label": "Google+ ID",
                   "values": [
                       {
                           "description": null,
@@ -1571,8 +1571,8 @@
               },
               {
                   "description": "tag on the Stack Exchange websites",
-                  "id": "P1482",
-                  "label": "Stack Exchange tag",
+                  "property_id": "P1482",
+                  "property_label": "Stack Exchange tag",
                   "values": [
                       {
                           "description": null,
@@ -1589,8 +1589,8 @@
               },
               {
                   "description": "username of this project, person or organization on GitHub",
-                  "id": "P2037",
-                  "label": "GitHub username",
+                  "property_id": "P2037",
+                  "property_label": "GitHub username",
                   "values": [
                       {
                           "description": null,
@@ -1617,8 +1617,8 @@
           "sources": [
               {
                   "description": "identifier for an official SourceForge repository (\"project\") for a software product",
-                  "id": "P2209",
-                  "label": "SourceForge project",
+                  "property_id": "P2209",
+                  "property_label": "SourceForge project",
                   "values": [
                       {
                           "description": null,
@@ -1645,8 +1645,8 @@
           "sources": [
               {
                   "description": "GitHub topic for a repository or subject",
-                  "id": "P9100",
-                  "label": "GitHub topic",
+                  "property_id": "P9100",
+                  "property_label": "GitHub topic",
                   "values": [
                       {
                           "description": null,
@@ -1658,8 +1658,8 @@
               },
               {
                   "description": "short sequence of bytes to identify a longer cryptographic public key",
-                  "id": "P3721",
-                  "label": "public key fingerprint",
+                  "property_id": "P3721",
+                  "property_label": "public key fingerprint",
                   "values": [
                       {
                           "description": null,
@@ -1723,8 +1723,8 @@
           "sources": [
               {
                   "description": "address on the Mastodon decentralized social network. The form is: 'user@server.domain' . There is no leading '@' as is usually written to distinguish Mastodon addresses from email addresses.",
-                  "id": "P4033",
-                  "label": "Mastodon address",
+                  "property_id": "P4033",
+                  "property_label": "Mastodon address",
                   "values": [
                       {
                           "description": null,
@@ -1736,8 +1736,8 @@
               },
               {
                   "description": "package name in the Chocolatey Community Repository",
-                  "id": "P10766",
-                  "label": "Chocolatey Community package ID",
+                  "property_id": "P10766",
+                  "property_label": "Chocolatey Community package ID",
                   "values": [
                       {
                           "description": null,
@@ -1749,8 +1749,8 @@
               },
               {
                   "description": "this item's username on X (formerly Twitter); do not include the “@” symbol",
-                  "id": "P2002",
-                  "label": "X username",
+                  "property_id": "P2002",
+                  "property_label": "X username",
                   "values": [
                       {
                           "description": null,
@@ -1781,8 +1781,8 @@
               },
               {
                   "description": "name of the official Gentoo package of this application",
-                  "id": "P3499",
-                  "label": "Gentoo package",
+                  "property_id": "P3499",
+                  "property_label": "Gentoo package",
                   "values": [
                       {
                           "description": null,
@@ -1794,8 +1794,8 @@
               },
               {
                   "description": "identifier for free software at OpenHub.net",
-                  "id": "P1972",
-                  "label": "Open Hub ID",
+                  "property_id": "P1972",
+                  "property_label": "Open Hub ID",
                   "values": [
                       {
                           "description": null,
@@ -1822,8 +1822,8 @@
           "sources": [
               {
                   "description": "name of the official Arch Linux package",
-                  "id": "P3454",
-                  "label": "Arch Linux package",
+                  "property_id": "P3454",
+                  "property_label": "Arch Linux package",
                   "values": [
                       {
                           "description": null,
@@ -1850,8 +1850,8 @@
           "sources": [
               {
                   "description": "name of the official Fedora package",
-                  "id": "P3463",
-                  "label": "Fedora package",
+                  "property_id": "P3463",
+                  "property_label": "Fedora package",
                   "values": [
                       {
                           "description": null,
@@ -1863,8 +1863,8 @@
               },
               {
                   "description": "unique identifier in the Framalibre free software directory",
-                  "id": "P4107",
-                  "label": "Framalibre ID",
+                  "property_id": "P4107",
+                  "property_label": "Framalibre ID",
                   "values": [
                       {
                           "description": null,
@@ -1891,8 +1891,8 @@
           "sources": [
               {
                   "description": "identifier for a topic on Quora (English language version)",
-                  "id": "P3417",
-                  "label": "Quora topic ID",
+                  "property_id": "P3417",
+                  "property_label": "Quora topic ID",
                   "values": [
                       {
                           "description": null,
@@ -1919,8 +1919,8 @@
               },
               {
                   "description": "ID of an application on Flathub, the Flatpak repository",
-                  "id": "P4655",
-                  "label": "Flathub ID",
+                  "property_id": "P4655",
+                  "property_label": "Flathub ID",
                   "values": [
                       {
                           "description": null,
@@ -1932,8 +1932,8 @@
               },
               {
                   "description": "the programming language(s) in which the software is developed",
-                  "id": "P277",
-                  "label": "programmed in",
+                  "property_id": "P277",
+                  "property_label": "programmed in",
                   "values": [
                       {
                           "description": "general-purpose programming language",
@@ -2011,8 +2011,8 @@
           "sources": [
               {
                   "description": "identifier for software package in the SlackBuilds database",
-                  "id": "P12077",
-                  "label": "SlackBuilds package",
+                  "property_id": "P12077",
+                  "property_label": "SlackBuilds package",
                   "values": [
                       {
                           "description": null,
@@ -2024,8 +2024,8 @@
               },
               {
                   "description": "link to the user manual of the object (product, program)",
-                  "id": "P2078",
-                  "label": "user manual URL",
+                  "property_id": "P2078",
+                  "property_label": "user manual URL",
                   "values": [
                       {
                           "description": null,
@@ -2037,8 +2037,8 @@
               },
               {
                   "description": "serial code used to uniquely identify digital objects like academic papers (use upper case letters only)",
-                  "id": "P356",
-                  "label": "DOI",
+                  "property_id": "P356",
+                  "property_label": "DOI",
                   "values": [
                       {
                           "description": null,
@@ -2050,8 +2050,8 @@
               },
               {
                   "description": "number of subscribers on a particular social media website (use as main statement only; see P3744 instead for qualifier). Qualify with \"point in time\" and property for account. For Twitter, use numeric id.",
-                  "id": "P8687",
-                  "label": "social media followers",
+                  "property_id": "P8687",
+                  "property_label": "social media followers",
                   "values": [
                       {
                           "description": null,
@@ -2083,8 +2083,8 @@
               },
               {
                   "description": "identifier for a libre software in the Socle interministériel de logiciels libres website",
-                  "id": "P8209",
-                  "label": "SILL software ID",
+                  "property_id": "P8209",
+                  "property_label": "SILL software ID",
                   "values": [
                       {
                           "description": null,
@@ -2111,8 +2111,8 @@
           "sources": [
               {
                   "description": "identifier for an app in the Pro-Linux.de database",
-                  "id": "P6665",
-                  "label": "Pro-Linux.de DBApp ID",
+                  "property_id": "P6665",
+                  "property_label": "Pro-Linux.de DBApp ID",
                   "values": [
                       {
                           "description": null,
@@ -2124,8 +2124,8 @@
               },
               {
                   "description": "name of the Reddit forum associated to this subject",
-                  "id": "P3984",
-                  "label": "subreddit",
+                  "property_id": "P3984",
+                  "property_label": "subreddit",
                   "values": [
                       {
                           "description": null,
@@ -2137,8 +2137,8 @@
               },
               {
                   "description": "package name and identifier in Repology",
-                  "id": "P6931",
-                  "label": "Repology project name",
+                  "property_id": "P6931",
+                  "property_label": "Repology project name",
                   "values": [
                       {
                           "description": null,
@@ -2150,8 +2150,8 @@
               },
               {
                   "description": "name of the official FreeBSD port of this application",
-                  "id": "P7427",
-                  "label": "FreeBSD port",
+                  "property_id": "P7427",
+                  "property_label": "FreeBSD port",
                   "values": [
                       {
                           "description": null,
@@ -2183,8 +2183,8 @@
           "sources": [
               {
                   "description": "name of the package available in the NetBSD Packages Collection",
-                  "id": "P7966",
-                  "label": "NetBSD package ID",
+                  "property_id": "P7966",
+                  "property_label": "NetBSD package ID",
                   "values": [
                       {
                           "description": null,
@@ -2196,8 +2196,8 @@
               },
               {
                   "description": "identifier used in the crowdsourced software recommendation website AlternativeTo.net",
-                  "id": "P9618",
-                  "label": "AlternativeTo software ID",
+                  "property_id": "P9618",
+                  "property_label": "AlternativeTo software ID",
                   "values": [
                       {
                           "description": null,
@@ -2209,8 +2209,8 @@
               },
               {
                   "description": "name of the official Debian stable package",
-                  "id": "P3442",
-                  "label": "Debian stable package",
+                  "property_id": "P3442",
+                  "property_label": "Debian stable package",
                   "values": [
                       {
                           "description": null,

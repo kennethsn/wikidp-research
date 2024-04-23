@@ -22,7 +22,7 @@ interface AnnotationMenuProps {
 const refKey = (reference: TextAnnotationReference, index: number) => (
   `${reference.property.id}-${index}`
 );
-const sourceKey = (id: TextAnnotationSource['id'], index: number) =>  `${id}-${index}`;
+const sourceKey = (id: TextAnnotationSource['property_id'], index: number) =>  `${id}-${index}`;
 const valueKey = (label: TextAnnotationSourceValue['label'], index: number) => `${label}-${index}`;
 
 export default function AnnotationMenu({ annotation: { sources } }: AnnotationMenuProps) {
@@ -42,13 +42,13 @@ export default function AnnotationMenu({ annotation: { sources } }: AnnotationMe
           </Typography>
         </Grid>
         {sources.map(({
-          id,
-          label,
+          property_id: propertyId,
+          property_label: propertyLabel,
           values,
           wikibase_url,
         }, i) => (
           <Grid
-            key={sourceKey(id, i)}
+            key={sourceKey(propertyId, i)}
             sx={styles.source}
           >
             <Typography
@@ -67,7 +67,7 @@ export default function AnnotationMenu({ annotation: { sources } }: AnnotationMe
               >
                 <Typography variant="overline">
                   <TravelExploreOutlinedIcon sx={styles.sourceLabelIcon} />
-                  {label}
+                  {propertyLabel}
                 </Typography>
               </Link>
               <Grid sx={styles.sourceValueContainer}>

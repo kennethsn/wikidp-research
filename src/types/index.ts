@@ -16,10 +16,10 @@ export interface ChatWikiDPPropertyInstruction {
 export interface ChatWikiDPRequest {
   api_key: string;
   domain: string;
+  entity_id?: string;
   history: ChatHistory;
   message: string;
   property_instructions?: Array<ChatWikiDPPropertyInstruction>;
-  wikibase_id?: string;
 }
 
 export interface ChatWikiDPResponse {
@@ -69,8 +69,8 @@ export interface TextAnnotationReference {
 
 export interface TextAnnotationSource {
   description?: NullableString;
-  id: string;
-  label: string;
+  property_id: string;
+  property_label: string;
   values: Array<TextAnnotationSourceValue>;
   wikibase_url: string;
 }
